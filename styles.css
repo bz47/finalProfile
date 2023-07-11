@@ -1,0 +1,129 @@
+/*********UNIVERSAL STYLES************/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  background-color: grey;
+  color: rgb(18, 16, 16);
+  text-align: center;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  margin-inline: 2%;
+}
+
+.wrapper {
+  padding: 70px 10px;
+  margin: 0 auto;
+  width: 100%;
+  scroll-snap-align: end;
+}
+
+h1 {
+  font-size: 9.2rem;
+}
+
+p {
+  font-size: 2.6rem;
+}
+
+/***************NAV***************/
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.824);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+  width: 50%;
+}
+
+#brandon {
+  font-size: 2rem;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+  width: 50%;
+}
+
+/**************MAIN*****************/
+
+#main {
+  background-color: rgba(255, 255, 255, 0.824);
+}
+/**************TWO*****************/
+#two {
+  background-color: grey;
+}
+/**************THREE*****************/
+#three {
+  background-color: rgba(255, 255, 255, 0.824);
+}
+/**************FOUR*****************/
+#four {
+  background-color: grey;
+}
+/**************FIVE*****************/
+#five {
+  background-color: rgba(255, 255, 255, 0.824);
+}
+/**************MEDIA QUERIES************/
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+  .wrapper {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .wrapper {
+    width: 100%;
+    background-color: orange;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (min-width: 601) and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1800px) {
+  .wrapper {
+    height: 90vh;
+  }
+}
