@@ -122,6 +122,10 @@ nav {
   h1 {
     font-size: 6rem;
   }
+
+  #brandon {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {
@@ -132,6 +136,10 @@ nav {
 
   h1 {
     font-size: 6rem;
+  }
+
+  #brandon {
+    font-size: 1.5rem;
   }
 }
 
