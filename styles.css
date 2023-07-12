@@ -71,7 +71,7 @@ p {
   display: flex;
   justify-content: center;
   width: 40%;
-  max-height: 80rem;
+  min-height: 25rem;
   margin-bottom: 1%;
   overflow: hidden;
 }
@@ -261,8 +261,9 @@ nav {
 }
 
 .mywork {
-  border: solid red 2px;
+  border: solid black 1px;
   min-height: 30rem;
+  overflow: hidden;
 }
 
 #woods {
@@ -401,6 +402,7 @@ nav {
   min-width: 12rem;
   font-size: 1.5rem;
   transition-duration: 1s;
+  border-radius: 7%;
 }
 
 #email:hover {
