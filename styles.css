@@ -41,9 +41,11 @@ a:visited {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  color: #695af1;
   width: 20%;
   min-height: 5rem;
-  font-weight: 600;
+  font-weight: bolder;
+  font-size: 1.3rem;
   font-style: oblique;
 }
 
@@ -223,7 +225,7 @@ nav {
   min-height: 20rem;
   width: 20rem;
   flex-shrink: 2;
-  background-color: #695af1;
+  background-color: antiquewhite;
 }
 /**************FOOTER*****************/
 #footer {
