@@ -11,7 +11,7 @@ html {
 
 body {
   margin: 0 auto;
-  background-color: #1a73e8;
+  background-color: #695af1;
   color: rgb(18, 16, 16);
   text-align: center;
   overflow-x: scroll;
@@ -48,7 +48,7 @@ a:visited {
 }
 
 h1 {
-  font-size: 9.2rem;
+  font-size: 7rem;
   margin: 2%;
 }
 
@@ -79,8 +79,9 @@ nav {
   justify-content: center;
   align-items: center;
   height: 5rem;
-  background-color: #1a73e8;
-  color: rgb(224, 219, 219);
+  background-color: #695af1;
+  color: white;
+  letter-spacing: 0.1rem;
   font-weight: 600;
   position: fixed;
   top: 0px;
@@ -131,6 +132,10 @@ nav {
   background-color: floralwhite;
 }
 
+#what {
+  margin-top: -1%;
+}
+
 .skills {
   display: flex;
   justify-content: space-around;
@@ -142,11 +147,15 @@ nav {
 .skill-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: antiquewhite;
   width: 30%;
   margin-bottom: 3%;
+}
+
+.skills h3 {
+  font-size: 3rem;
 }
 
 #pad {
@@ -160,11 +169,11 @@ nav {
 }
 
 .skill-text {
-  width: 40%;
+  width: 80%;
+  font-size: 1.5rem;
 }
 
 .logo {
-  margin-top: 3%;
   height: 100%;
   background-position: center;
   background-size: contain;
@@ -195,9 +204,25 @@ nav {
 #four {
   background-color: floralwhite;
 }
+#stack {
+  margin-top: -3%;
+}
 
-#connz {
-  margin-top: -9%;
+.toolbox {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  padding: 2%;
+}
+
+.tool {
+  min-height: 20rem;
+  width: 20rem;
+  flex-shrink: 2;
+  background-color: #695af1;
 }
 /**************FOOTER*****************/
 #footer {
