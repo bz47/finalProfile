@@ -88,6 +88,7 @@ nav {
   position: fixed;
   top: 0px;
   width: 100%;
+  z-index: 500;
 }
 
 .nav-left {
@@ -138,12 +139,17 @@ nav {
   margin-top: -1%;
 }
 
+.hidden {
+  display: none;
+}
+
 .skills {
   display: flex;
   justify-content: space-around;
   width: 90%;
   min-height: 70%;
   margin-bottom: 5%;
+  letter-spacing: 0.1rem;
 }
 
 .skill-box {
@@ -222,10 +228,68 @@ nav {
 }
 
 .tool {
-  min-height: 20rem;
-  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 23rem;
   flex-shrink: 2;
   background-color: antiquewhite;
+  box-shadow: -5px 5px darkgrey;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+
+.tool:hover {
+  rotate: 360deg;
+}
+
+.tool .pic {
+  min-height: 100%;
+  width: 100%;
+  filter: grayscale(1);
+  transition-duration: 1s;
+}
+
+.tool .pic:hover {
+  filter: grayscale(0);
+}
+
+#htm {
+  background-image: url("./html.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+#css {
+  background-image: url("./cpic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+#sass {
+  background-image: url("./sass.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+#js {
+  background-image: url("./js.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+#jquery {
+  background-image: url("./jquery.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+#git {
+  background-image: url("./github.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
 }
 /**************FOOTER*****************/
 #footer {
@@ -277,6 +341,16 @@ nav {
   .tool {
     width: 30%;
   }
+
+  .hidden {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .tool .pic {
+    filter: grayscale(0);
+  }
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {
@@ -323,6 +397,16 @@ nav {
   .tool {
     width: 30%;
   }
+
+  .hidden {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .tool .pic {
+    filter: grayscale(0);
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -348,6 +432,16 @@ nav {
 
   .tool {
     width: 40%;
+  }
+
+  .hidden {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .tool .pic {
+    filter: grayscale(0);
   }
 }
 
