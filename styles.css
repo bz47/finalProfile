@@ -135,6 +135,7 @@ nav {
   border: solid black 1px;
   background-color: antiquewhite;
   width: 30%;
+  margin-bottom: 2%;
 }
 
 .illustration {
@@ -213,7 +214,7 @@ nav {
 
   .skill-box {
     width: 100%;
-    min-height: 20rem;
+    height: 20rem;
   }
 }
 
@@ -243,7 +244,7 @@ nav {
 
   .skill-box {
     width: 100%;
-    min-height: 25rem;
+    height: 25rem;
   }
 }
 
@@ -257,7 +258,7 @@ nav {
 
   .skill-box {
     width: 80%;
-    min-height: 30rem;
+    height: 30rem;
   }
 
   #computer {
@@ -275,12 +276,7 @@ nav {
 
   .skill-box {
     width: 80%;
-    min-height: 30rem;
-  }
-
-  #computer {
     height: 30rem;
-    width: 30rem;
   }
 }
 
