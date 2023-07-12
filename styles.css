@@ -246,7 +246,7 @@ nav {
 /**************THREE*****************/
 #three {
   background-color: antiquewhite;
-  padding: 5%;
+  padding: 2%;
 }
 
 #projz {
@@ -255,8 +255,8 @@ nav {
 
 .grid {
   display: grid;
-  gap: clamp(1rem, 4rem, 6rem);
-  width: 100%;
+  gap: 3rem;
+  width: 95%;
   grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
 }
 
@@ -264,6 +264,8 @@ nav {
   border: solid black 1px;
   min-height: 30rem;
   overflow: hidden;
+  width: 100%;
+  margin: 0 auto !important;
 }
 
 #woods {
