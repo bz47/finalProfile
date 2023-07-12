@@ -47,6 +47,13 @@ a:visited {
   font-weight: bolder;
   font-size: 1.3rem;
   font-style: oblique;
+  transition-duration: 2s;
+  transition-delay: 0.3s;
+}
+
+.navigate a:hover {
+  font-size: 1.8rem;
+  font-style: italic;
 }
 
 h1 {
@@ -420,6 +427,22 @@ nav {
   .tool .pic {
     filter: grayscale(0);
   }
+
+  #foot {
+    display: none;
+  }
+  #email {
+    display: none;
+  }
+
+  #marg {
+    display: none;
+  }
+
+  #plane {
+    margin: -7%;
+    font-size: 4rem;
+  }
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {
@@ -476,6 +499,22 @@ nav {
   .tool .pic {
     filter: grayscale(0);
   }
+
+  #foot {
+    display: none;
+  }
+  #email {
+    display: none;
+  }
+
+  #marg {
+    display: none;
+  }
+
+  #plane {
+    margin: -7%;
+    font-size: 4rem;
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -512,6 +551,21 @@ nav {
   .tool .pic {
     filter: grayscale(0);
   }
+
+  #foot {
+    display: none;
+  }
+  #email {
+    display: none;
+  }
+
+  #marg {
+    display: none;
+  }
+  #plane {
+    margin: -7%;
+    font-size: 4rem;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -526,6 +580,21 @@ nav {
     width: 80%;
     height: 30rem;
   }
+
+  #foot {
+    display: none;
+  }
+
+  #marg {
+    display: none;
+  }
+  #email {
+    display: none;
+  }
+
+  #plane {
+    font-size: 4rem;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 3000px) {
@@ -535,5 +604,9 @@ nav {
 
   #footer {
     height: 50vh;
+  }
+
+  #plane {
+    padding: 1%;
   }
 }
