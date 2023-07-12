@@ -216,6 +216,7 @@ nav {
   align-items: center;
   width: 95%;
   padding: 2%;
+  margin-bottom: 4%;
 }
 
 .tool {
@@ -258,6 +259,10 @@ nav {
     height: 20rem;
   }
 
+  .skill-text {
+    display: none;
+  }
+
   .pic-holder {
     width: 50%;
     height: 60vh;
@@ -265,6 +270,10 @@ nav {
 
   #intro {
     width: 90%;
+  }
+
+  .tool {
+    width: 30%;
   }
 }
 
@@ -297,6 +306,10 @@ nav {
     height: 25rem;
   }
 
+  .skill-text {
+    display: none;
+  }
+
   .pic-holder {
     width: 50%;
     height: 60vh;
@@ -304,6 +317,9 @@ nav {
 
   #intro {
     width: 90%;
+  }
+  .tool {
+    width: 30%;
   }
 }
 
@@ -322,6 +338,14 @@ nav {
 
   #computer {
     height: 100%;
+  }
+
+  .skill-text {
+    display: none;
+  }
+
+  .tool {
+    width: 40%;
   }
 }
 
