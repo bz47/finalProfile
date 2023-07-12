@@ -44,6 +44,7 @@ a:visited {
   color: #5468ff;
   width: 20%;
   min-height: 5rem;
+  margin-top: 5%;
   font-weight: bolder;
   font-size: 1.3rem;
   font-style: oblique;
@@ -163,7 +164,7 @@ nav {
   min-height: 12rem;
   background-color: grey;
   margin-inline: 1.5%;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
 }
 
 .greet {
@@ -245,11 +246,53 @@ nav {
 /**************THREE*****************/
 #three {
   background-color: antiquewhite;
+  padding: 5%;
 }
 
 #projz {
-  margin-top: -9%;
+  margin-top: -2%;
 }
+
+.grid {
+  display: grid;
+  gap: clamp(1rem, 4rem, 6rem);
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+}
+
+.mywork {
+  border: solid red 2px;
+  min-height: 30rem;
+}
+
+#woods {
+  background-image: url("./woods.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ocean {
+  background-image: url("./ocean.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#space {
+  background-image: url("./sky.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#desert {
+  background-image: url("./desert.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /**************FOUR*****************/
 #four {
   background-color: floralwhite;
@@ -368,7 +411,7 @@ nav {
 
 #marg {
   margin-top: -10%;
-  margin-bottom: -18%;
+  margin-bottom: -15%;
   color: #5468ff;
 }
 /**************MEDIA QUERIES************/
@@ -608,5 +651,9 @@ nav {
 
   #plane {
     padding: 1%;
+  }
+
+  #three {
+    height: fit-content;
   }
 }
