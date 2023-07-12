@@ -11,7 +11,7 @@ html {
 
 body {
   margin: 0 auto;
-  background-color: #695af1;
+  background-color: #14539aff;
   color: rgb(18, 16, 16);
   text-align: center;
   overflow-x: scroll;
@@ -41,7 +41,7 @@ a:visited {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  color: #695af1;
+  color: #5468ff;
   width: 20%;
   min-height: 5rem;
   font-weight: bolder;
@@ -50,7 +50,7 @@ a:visited {
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 5rem;
   margin: 2%;
 }
 
@@ -72,6 +72,7 @@ p {
   display: block;
   max-width: 100%;
   height: auto;
+  border-radius: 50%;
 }
 
 /***************NAV***************/
@@ -81,7 +82,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 5rem;
-  background-color: #695af1;
+  background-color: #14539aff;
   color: white;
   letter-spacing: 0.1rem;
   font-weight: 600;
@@ -123,11 +124,44 @@ nav {
 }
 
 #about {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 #intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   width: 60%;
+  background-color: floralwhite;
+  margin: 1% 0%;
+  padding: 0.3%;
+}
+
+#intro h3 {
+  font-size: 2rem;
+}
+
+.hobz {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hobby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  min-height: 12rem;
+  background-color: grey;
+  margin-inline: 1.5%;
+  margin-bottom: 1%;
+}
+
+.greet {
+  width: 70%;
+  font-size: 1.7rem;
 }
 
 /**************SKILLS*****************/
@@ -160,6 +194,7 @@ nav {
   background-color: antiquewhite;
   width: 30%;
   margin-bottom: 3%;
+  box-shadow: -5px 5px darkgrey;
 }
 
 .skills h3 {
@@ -237,7 +272,7 @@ nav {
   background-color: antiquewhite;
   box-shadow: -5px 5px darkgrey;
   transition-duration: 2s;
-  transition-delay: 1s;
+  transition-delay: 0.5s;
 }
 
 .tool:hover {
@@ -295,6 +330,40 @@ nav {
 #footer {
   background-color: antiquewhite;
 }
+
+#foot {
+  margin-top: -12%;
+}
+
+#plane {
+  margin: -10%;
+  font-size: 7rem;
+}
+
+#email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black 2px;
+  background-color: lightgray;
+  width: fit-content;
+  min-height: 4rem;
+  min-width: 12rem;
+  font-size: 1.5rem;
+  transition-duration: 1s;
+}
+
+#email:hover {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 1.8rem;
+}
+
+#marg {
+  margin-top: -10%;
+  margin-bottom: -18%;
+  color: #5468ff;
+}
 /**************MEDIA QUERIES************/
 
 @media only screen and (max-width: 600px) and (orientation: landscape) {
@@ -331,7 +400,7 @@ nav {
 
   .pic-holder {
     width: 50%;
-    height: 60vh;
+    height: 40vh;
   }
 
   #intro {
@@ -388,7 +457,7 @@ nav {
 
   .pic-holder {
     width: 50%;
-    height: 60vh;
+    height: 40vh;
   }
 
   #intro {
@@ -462,5 +531,9 @@ nav {
 @media only screen and (min-width: 992px) and (max-width: 3000px) {
   .wrapper {
     height: 90vh;
+  }
+
+  #footer {
+    height: 50vh;
   }
 }
