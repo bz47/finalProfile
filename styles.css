@@ -122,6 +122,10 @@ nav {
   margin-top: 5%;
 }
 
+#intro {
+  width: 60%;
+}
+
 /**************SKILLS*****************/
 #two {
   background-color: floralwhite;
@@ -140,7 +144,6 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: solid black 1px;
   background-color: antiquewhite;
   width: 30%;
   margin-bottom: 3%;
@@ -160,31 +163,24 @@ nav {
   width: 40%;
 }
 
-#computer {
+.logo {
+  margin-top: 3%;
   height: 100%;
-  background-image: url("./programmer.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  border: solid red 2px;
+}
+
+#computer {
+  background-image: url("./programmer.svg");
 }
 
 #tags {
-  height: 100%;
   background-image: url("./responsive.svg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border: solid red 2px;
 }
 
 #phone {
-  height: 100%;
   background-image: url("./phone.svg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border: solid red 2px;
 }
 
 /**************THREE*****************/
@@ -241,6 +237,10 @@ nav {
     width: 50%;
     height: 60vh;
   }
+
+  #intro {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {
@@ -275,6 +275,10 @@ nav {
   .pic-holder {
     width: 50%;
     height: 60vh;
+  }
+
+  #intro {
+    width: 90%;
   }
 }
 
