@@ -655,6 +655,10 @@ nav {
     height: 30rem;
   }
 
+  #about {
+    margin-top: 0.3%;
+  }
+
   #foot {
     display: none;
   }
@@ -674,6 +678,14 @@ nav {
 @media only screen and (min-width: 992px) and (max-width: 3000px) {
   .wrapper {
     height: 90vh;
+  }
+
+  #main {
+    height: fit-content;
+  }
+
+  #about {
+    margin-top: -0.3%;
   }
 
   #footer {
