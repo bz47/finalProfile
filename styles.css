@@ -272,6 +272,7 @@ nav {
 
 .grid {
   display: grid;
+  padding-inline: 5%;
   gap: 3rem;
   width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
@@ -362,8 +363,8 @@ nav {
   flex-shrink: 2;
   background-color: antiquewhite;
   box-shadow: -5px 5px darkgrey;
-  transition-duration: 2s;
-  transition-delay: 0.5s;
+  transition-duration: 0.7s;
+  transition-delay: 1s;
 }
 
 .tool:hover {
