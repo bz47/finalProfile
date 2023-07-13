@@ -272,7 +272,6 @@ nav {
 
 .grid {
   display: grid;
-  padding-inline: 5%;
   gap: 3rem;
   width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
@@ -471,10 +470,6 @@ nav {
 
   #trees {
     visibility: visible;
-  }
-
-  .grid {
-    padding: 0%;
   }
 
   .skills {
@@ -769,7 +764,7 @@ nav {
     display: none;
   }
 
-  #envelope {
+  #plane {
     margin: -7%;
     font-size: 4rem;
   }
