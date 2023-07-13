@@ -676,7 +676,7 @@ nav {
   }
 
   #footer {
-    height: 50vh;
+    height: 42vh;
   }
 
   #plane {
@@ -688,6 +688,6 @@ nav {
   }
 
   #four {
-    height: 65vh;
+    height: fit-content;
   }
 }
