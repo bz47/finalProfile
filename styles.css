@@ -427,7 +427,7 @@ nav {
   margin-top: -12%;
 }
 
-#plane {
+#envelope {
   margin: -10%;
   font-size: 7rem;
 }
@@ -471,6 +471,10 @@ nav {
 
   #trees {
     visibility: visible;
+  }
+
+  .grid {
+    padding: 0%;
   }
 
   .skills {
@@ -521,7 +525,7 @@ nav {
     display: none;
   }
 
-  #plane {
+  #envelope {
     margin: -7%;
     font-size: 4rem;
   }
@@ -594,7 +598,7 @@ nav {
   #marg {
     display: none;
   }
-  #plane {
+  #envelope {
     margin: -7%;
     font-size: 4rem;
   }
@@ -659,7 +663,7 @@ nav {
     display: none;
   }
 
-  #plane {
+  #envelope {
     font-size: 4rem;
   }
 }
@@ -686,7 +690,7 @@ nav {
     height: 42vh;
   }
 
-  #plane {
+  #envelope {
     padding: 1%;
   }
 
@@ -765,7 +769,7 @@ nav {
     display: none;
   }
 
-  #plane {
+  #envelope {
     margin: -7%;
     font-size: 4rem;
   }
@@ -811,7 +815,7 @@ nav {
     background-color: antiquewhite;
   }
 
-  #plane {
+  #envelope {
     font-size: 3vw;
   }
 
