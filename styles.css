@@ -454,6 +454,10 @@ nav a:hover {
     background-color: orange;
   }
 
+  p.greet {
+    width: 80%;
+  }
+
   #brandon {
     display: none;
   }
