@@ -15,7 +15,7 @@ body {
   color: rgb(18, 16, 16);
   text-align: center;
   overflow-x: scroll;
-  font-family: "Lora ", serif;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 a,
@@ -92,7 +92,7 @@ nav {
   align-items: center;
   height: 5rem;
   background-color: rgb(36, 75, 200);
-  color: white;
+  color: rgb(191, 187, 179);
   letter-spacing: 0.1rem;
   font-weight: 600;
   position: fixed;
@@ -102,7 +102,7 @@ nav {
 }
 
 nav a:hover {
-  color: grey;
+  color: white;
 }
 
 .nav-left {
@@ -371,23 +371,11 @@ nav a:hover {
   flex-shrink: 2;
   background-color: antiquewhite;
   box-shadow: -5px 5px darkgrey;
-  transition-duration: 0.7s;
-  transition-delay: 1s;
-}
-
-.tool:hover {
-  rotate: 360deg;
 }
 
 .tool .pic {
   min-height: 100%;
   width: 100%;
-  filter: grayscale(0);
-  transition-duration: 1s;
-}
-
-.tool .pic:hover {
-  filter: grayscale(1);
 }
 
 #htm {
@@ -432,6 +420,7 @@ nav a:hover {
 }
 
 #foot {
+  font-size: 2rem;
   margin-top: -12%;
 }
 
@@ -445,7 +434,7 @@ nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
   width: 70px;
-  height: 22%;
+  height: 120%;
 }
 
 #linked:hover {
@@ -513,8 +502,16 @@ nav a:hover {
   #foot {
     display: none;
   }
+
+  #footer {
+    flex-direction: row;
+    padding-left: 7%;
+  }
+
   #linked {
-    display: none;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
   }
 
   #marg {
@@ -587,8 +584,16 @@ nav a:hover {
   #foot {
     display: none;
   }
+
+  #footer {
+    flex-direction: row;
+    padding-left: 9%;
+  }
+
   #linked {
-    display: none;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
   }
 
   #marg {
@@ -659,12 +664,19 @@ nav a:hover {
   #marg {
     display: none;
   }
+
   #linked {
-    display: none;
+    width: 30px;
+    height: 30px;
   }
 
   #envelope {
     font-size: 4rem;
+  }
+
+  #footer {
+    flex-direction: row;
+    padding-left: 12%;
   }
 }
 
@@ -765,8 +777,15 @@ nav a:hover {
   #foot {
     display: none;
   }
+
+  #footer {
+    flex-direction: row;
+    padding-left: 7%;
+  }
+
   #linked {
-    display: none;
+    width: 40px;
+    height: 40px;
   }
 
   #marg {
@@ -813,6 +832,7 @@ nav a:hover {
   #footer {
     flex-direction: row;
     justify-content: space-evenly;
+    height: 20vh;
   }
 
   #footer .navigate {
@@ -838,5 +858,10 @@ nav a:hover {
 
   .logo {
     height: 20vw;
+  }
+
+  #linked {
+    min-height: 120%;
+    width: 80px;
   }
 }
