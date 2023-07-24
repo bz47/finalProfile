@@ -634,6 +634,10 @@ nav {
     height: 30rem;
   }
 
+  .skill-text {
+    margin-bottom: 1rem;
+  }
+
   #about {
     margin-top: 0.3%;
   }
@@ -683,6 +687,10 @@ nav {
 
   #footer {
     height: 42vh;
+  }
+
+  #footer.wrapper {
+    padding-right: 9%;
   }
 
   #envelope {
