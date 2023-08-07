@@ -336,8 +336,8 @@ nav a:hover {
   background-size: cover;
 }
 
-#clothes {
-  background-image: url("./clothes.png");
+#todo {
+  background-image: url("./react-todo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
