@@ -315,6 +315,13 @@ nav a:hover {
   margin: 0 auto !important;
 }
 
+#tic-tac {
+  background-image: url("./tictac.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #parallax {
   background-image: url("./Parallax.png");
   background-position: center;
