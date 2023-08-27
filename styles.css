@@ -315,6 +315,13 @@ nav a:hover {
   margin: 0 auto !important;
 }
 
+#geography {
+  background-image: url("./geography.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #recipes {
   background-image: url("./recipes.png");
   background-position: bottom;
