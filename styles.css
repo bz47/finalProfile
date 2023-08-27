@@ -315,6 +315,13 @@ nav a:hover {
   margin: 0 auto !important;
 }
 
+#recipes {
+  background-image: url("./recipes.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #tic-tac {
   background-image: url("./tictac.png");
   background-position: bottom;
