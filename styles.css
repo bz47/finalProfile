@@ -315,6 +315,13 @@ nav a:hover {
   margin: 0 auto !important;
 }
 
+#shoes {
+  background-image: url("./shoes.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #geography {
   background-image: url("./geography.png");
   background-position: bottom;
