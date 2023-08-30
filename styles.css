@@ -315,6 +315,13 @@ nav a:hover {
   margin: 0 auto !important;
 }
 
+#spotify {
+  background-image: url("./spotify.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #shoes {
   background-image: url("./shoes.png");
   background-position: bottom;
