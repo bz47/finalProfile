@@ -135,6 +135,7 @@ nav a:hover {
 
 #main {
   background-color: antiquewhite;
+  padding-bottom: 0px !important;
 }
 
 #about {
