@@ -489,7 +489,16 @@ nav a:hover {
   height: 120%;
 }
 
-#linked:hover {
+#github {
+  background-image: url("./github.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 120%;
+}
+
+#linked:hover,
+#github:hover {
   cursor: pointer;
 }
 
