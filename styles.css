@@ -478,23 +478,24 @@ nav a:hover {
 
 #envelope {
   margin: -10%;
-  font-size: 7rem;
+  font-size: 5rem !important;
 }
 
 #linked {
   background-image: url("./linked.png");
   background-position: center;
   background-repeat: no-repeat;
-  width: 70px;
-  height: 120%;
+  width: 8rem;
+  height: 8rem;
 }
 
 #github {
   background-image: url("./github.png");
   background-position: center;
   background-repeat: no-repeat;
-  width: 70px;
-  height: 120%;
+  background-size: 90%;
+  width: 8rem;
+  height: 8rem;
 }
 
 #linked:hover,
