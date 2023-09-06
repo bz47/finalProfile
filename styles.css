@@ -274,7 +274,7 @@ nav a:hover {
 /**************THREE*****************/
 #three {
   background-color: floralwhite;
-  padding: 2%;
+  padding: 8%;
 }
 
 #projz {
@@ -587,6 +587,10 @@ nav a:hover {
   #two .navigate {
     margin-top: 2%;
     margin-bottom: -1%;
+  }
+
+  #three {
+    padding: 2%;
   }
 
   #three .navigate {
