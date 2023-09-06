@@ -534,7 +534,7 @@ nav a:hover {
   }
 
   .pic-holder {
-    width: 50%;
+    width: 100% !important;
     height: 40vh;
   }
 
