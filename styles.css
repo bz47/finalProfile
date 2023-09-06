@@ -496,6 +496,8 @@ nav a:hover {
   background-size: 90%;
   width: 8rem;
   height: 8rem;
+  position: relative;
+  right: 8%;
 }
 
 #linked:hover,
