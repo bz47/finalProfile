@@ -1,4 +1,4 @@
-var counterContainer = document.getElementById(".website-counter");
+var counterContainer = document.getElementById("website-counter");
 
 var visitCount = localStorage.getItem("page_view");
 visitCount = Number(visitCount) + 1;
